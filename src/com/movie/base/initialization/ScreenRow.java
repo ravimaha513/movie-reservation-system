@@ -28,7 +28,7 @@ public class ScreenRow {
 
     @Override
     public String toString() {
-        return "ScreenRow{" +
+        return "{" +
                 "row=" + row +
                 ", rowNum='" + rowNum + '\'' +
                 '}';

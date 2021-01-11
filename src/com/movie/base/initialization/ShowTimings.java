@@ -1,16 +1,17 @@
 package com.movie.base.initialization;
 
+import java.time.LocalTime;
 import java.util.Date;
 
 public class ShowTimings {
 
-    Date[] movieTime;
+    LocalTime[] movieTime;
 
-    public Date[] getMovieTime() {
+    public LocalTime[] getMovieTime() {
         return movieTime;
     }
 
-    public void setMovieTime(Date[] movieTime) {
+    public void setMovieTime(LocalTime[] movieTime) {
         this.movieTime = movieTime;
     }
 }

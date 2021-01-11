@@ -1,8 +1,8 @@
 package com.movie.base.initialization;
 
-public class ScreenCapacity {
+public class ScreenCapacity extends ScreenInitialization{
 
-    static int INIT_CAPACITY = 100 ;
+    public static int INIT_CAPACITY  ;
 
     int numOfSeatsBooked;
 
@@ -35,4 +35,6 @@ public class ScreenCapacity {
     public void setNumOfSeatsAvailable(int numOfSeatsAvailable) {
         this.numOfSeatsAvailable = numOfSeatsAvailable;
     }
+
+
 }
